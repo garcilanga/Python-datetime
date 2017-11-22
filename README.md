@@ -1,5 +1,3 @@
-# python-datetime
-
 # Conversiones Datetime <-> String
 
 - La clase **datetime** del paquete **datetime** contiene los métodos **strptime** y **strftime** que pueden emplearse para realizar conversiones de tipos _datetime_ y _string_.
@@ -38,5 +36,5 @@
     03 May 2017
     ```
 
-- Más información:
+- Referencias y más información:
     - [8.1. datetime - Basic date and time types](https://docs.python.org/2/library/datetime.html)
