@@ -11,12 +11,12 @@
 - Ejemplo:
     ```
     from datetime import datetime
-    obj_fecha = datetime.strptime('03/05/2017', '%d/%m/%Y')
+    obj_fecha = datetime.strptime('03/05/2018', '%d/%m/%Y')
     print obj_fecha
     ```
     Resultado:
     ```
-    2017-05-03 00:00:00
+    2018-05-03 00:00:00
     ```
 
 ## strftime
@@ -28,13 +28,13 @@
 - Ejemplo:
     ```
     import datetime
-    str_fecha = datetime.datetime.strftime(datetime.datetime(2017, 5, 3), '%d %b %Y')
+    str_fecha = datetime.datetime.strftime(datetime.datetime(2018, 5, 3), '%d %b %Y')
     print str_fecha
     ```
     Resultado:
     ```
-    03 May 2017
+    03 May 2018
     ```
 
 - Referencias y más información:
-    - [8.1. datetime - Basic date and time types](https://docs.python.org/2/library/datetime.html)
+    - [8.1. datetime - Basic date and time types](https://docs.python.org/3.6/library/datetime.html)
